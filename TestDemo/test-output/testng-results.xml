@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="52709" started-at="2019-09-09T09:02:48 CST" finished-at="2019-09-09T09:03:41 CST">
+    <groups>
+    </groups>
+    <test name="Selenium_Grid_demo" duration-ms="52709" started-at="2019-09-09T09:02:48 CST" finished-at="2019-09-09T09:03:41 CST">
+      <class name="com.hustar.TestDemo.day3.RegisterTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.hustar.TestDemo.day3.RegisterTest@3d99d22e]" name="beforeMethod" is-config="true" duration-ms="7702" started-at="2019-09-09T09:02:48 CST" finished-at="2019-09-09T09:02:56 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="registerTest()[pri:0, instance:com.hustar.TestDemo.day3.RegisterTest@3d99d22e]" name="registerTest" duration-ms="13083" started-at="2019-09-09T09:02:56 CST" finished-at="2019-09-09T09:03:09 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.hustar.TestDemo.day3.RegisterTest@3d99d22e]" name="afterMethod" is-config="true" duration-ms="673" started-at="2019-09-09T09:03:09 CST" finished-at="2019-09-09T09:03:10 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.hustar.TestDemo.day3.RegisterTest -->
+      <class name="com.hustar.TestDemo.day3.SeleniumGridTest">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:com.hustar.TestDemo.day3.SeleniumGridTest@32709393]" name="f" duration-ms="19724" started-at="2019-09-09T09:02:48 CST" data-provider="data2" finished-at="2019-09-09T09:03:08 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://222.24.18.34:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:com.hustar.TestDemo.day3.SeleniumGridTest@32709393]" name="f" duration-ms="12032" started-at="2019-09-09T09:03:08 CST" data-provider="data2" finished-at="2019-09-09T09:03:20 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://222.24.18.34:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.hustar.TestDemo.day3.SeleniumGridTest@32709393]" name="f1" duration-ms="9615" started-at="2019-09-09T09:03:20 CST" data-provider="data2" finished-at="2019-09-09T09:03:29 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://222.24.18.34:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.hustar.TestDemo.day3.SeleniumGridTest@32709393]" name="f1" duration-ms="11253" started-at="2019-09-09T09:03:29 CST" data-provider="data2" finished-at="2019-09-09T09:03:41 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://222.24.18.34:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+      </class> <!-- com.hustar.TestDemo.day3.SeleniumGridTest -->
+    </test> <!-- Selenium_Grid_demo -->
+  </suite> <!-- Default Suite -->
+</testng-results>
